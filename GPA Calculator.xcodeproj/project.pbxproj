@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4ED6DC1157104AE00D1756B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC0157104AE00D1756B /* UIKit.framework */; };
+		C4ED6DC3157104AE00D1756B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC2157104AE00D1756B /* Foundation.framework */; };
+		C4ED6DC5157104AF00D1756B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC4157104AE00D1756B /* CoreGraphics.framework */; };
+		C4ED6DCB157104AF00D1756B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DC9157104AF00D1756B /* InfoPlist.strings */; };
+		C4ED6DCD157104AF00D1756B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DCC157104AF00D1756B /* main.m */; };
+		C4ED6DD1157104AF00D1756B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DD0157104AF00D1756B /* AppDelegate.m */; };
+		C4ED6DD4157104AF00D1756B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */; };
+		C4ED6DD7157104AF00D1756B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DD6157104AF00D1756B /* ViewController.m */; };
+		C4ED6DDF157104AF00D1756B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DDE157104AF00D1756B /* SenTestingKit.framework */; };
+		C4ED6DE0157104AF00D1756B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC0157104AE00D1756B /* UIKit.framework */; };
+		C4ED6DE1157104AF00D1756B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC2157104AE00D1756B /* Foundation.framework */; };
+		C4ED6DE9157104AF00D1756B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DE7157104AF00D1756B /* InfoPlist.strings */; };
+		C4ED6DEC157104AF00D1756B /* GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DEB157104AF00D1756B /* GPA_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4ED6DE2157104AF00D1756B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4ED6DB3157104AE00D1756B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4ED6DBB157104AE00D1756B;
+			remoteInfo = "GPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4ED6DBC157104AE00D1756B /* GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED6DC0157104AE00D1756B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4ED6DC2157104AE00D1756B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4ED6DC4157104AE00D1756B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4ED6DC8157104AF00D1756B /* GPA Calculator-Info.plist */ = {isa = PBXFileReference; path = "GPA Calculator-Info.plist"; sourceTree = "<group>"; };
+		C4ED6DCA157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4ED6DCC157104AF00D1756B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4ED6DCE157104AF00D1756B /* GPA Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "GPA Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		C4ED6DCF157104AF00D1756B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4ED6DD0157104AF00D1756B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4ED6DD3157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C4ED6DD5157104AF00D1756B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C4ED6DD6157104AF00D1756B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4ED6DDD157104AF00D1756B /* GPA CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPA CalculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED6DDE157104AF00D1756B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4ED6DE6157104AF00D1756B /* GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		C4ED6DE8157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4ED6DEA157104AF00D1756B /* GPA_CalculatorTests.h */ = {isa = PBXFileReference; path = GPA_CalculatorTests.h; sourceTree = "<group>"; };
+		C4ED6DEB157104AF00D1756B /* GPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPA_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4ED6DB9157104AE00D1756B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DC1157104AE00D1756B /* UIKit.framework in Frameworks */,
+				C4ED6DC3157104AE00D1756B /* Foundation.framework in Frameworks */,
+				C4ED6DC5157104AF00D1756B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED6DD9157104AF00D1756B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DDF157104AF00D1756B /* SenTestingKit.framework in Frameworks */,
+				C4ED6DE0157104AF00D1756B /* UIKit.framework in Frameworks */,
+				C4ED6DE1157104AF00D1756B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4ED6DB1157104AE00D1756B = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DC6157104AF00D1756B /* GPA Calculator */,
+				C4ED6DE4157104AF00D1756B /* GPA CalculatorTests */,
+				C4ED6DBF157104AE00D1756B /* Frameworks */,
+				C4ED6DBD157104AE00D1756B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4ED6DBD157104AE00D1756B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DBC157104AE00D1756B /* GPA Calculator.app */,
+				C4ED6DDD157104AF00D1756B /* GPA CalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4ED6DBF157104AE00D1756B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DC0157104AE00D1756B /* UIKit.framework */,
+				C4ED6DC2157104AE00D1756B /* Foundation.framework */,
+				C4ED6DC4157104AE00D1756B /* CoreGraphics.framework */,
+				C4ED6DDE157104AF00D1756B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4ED6DC6157104AF00D1756B /* GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DCF157104AF00D1756B /* AppDelegate.h */,
+				C4ED6DD0157104AF00D1756B /* AppDelegate.m */,
+				C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */,
+				C4ED6DD5157104AF00D1756B /* ViewController.h */,
+				C4ED6DD6157104AF00D1756B /* ViewController.m */,
+				C4ED6DC7157104AF00D1756B /* Supporting Files */,
+			);
+			path = "GPA Calculator";
+			sourceTree = "<group>";
+		};
+		C4ED6DC7157104AF00D1756B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DC8157104AF00D1756B /* GPA Calculator-Info.plist */,
+				C4ED6DC9157104AF00D1756B /* InfoPlist.strings */,
+				C4ED6DCC157104AF00D1756B /* main.m */,
+				C4ED6DCE157104AF00D1756B /* GPA Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4ED6DE4157104AF00D1756B /* GPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DEA157104AF00D1756B /* GPA_CalculatorTests.h */,
+				C4ED6DEB157104AF00D1756B /* GPA_CalculatorTests.m */,
+				C4ED6DE5157104AF00D1756B /* Supporting Files */,
+			);
+			path = "GPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		C4ED6DE5157104AF00D1756B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED6DE6157104AF00D1756B /* GPA CalculatorTests-Info.plist */,
+				C4ED6DE7157104AF00D1756B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4ED6DBB157104AE00D1756B /* GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED6DEF157104AF00D1756B /* Build configuration list for PBXNativeTarget "GPA Calculator" */;
+			buildPhases = (
+				C4ED6DB8157104AE00D1756B /* Sources */,
+				C4ED6DB9157104AE00D1756B /* Frameworks */,
+				C4ED6DBA157104AE00D1756B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPA Calculator";
+			productName = "GPA Calculator";
+			productReference = C4ED6DBC157104AE00D1756B /* GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4ED6DDC157104AF00D1756B /* GPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4ED6DF2157104AF00D1756B /* Build configuration list for PBXNativeTarget "GPA CalculatorTests" */;
+			buildPhases = (
+				C4ED6DD8157104AF00D1756B /* Sources */,
+				C4ED6DD9157104AF00D1756B /* Frameworks */,
+				C4ED6DDA157104AF00D1756B /* Resources */,
+				C4ED6DDB157104AF00D1756B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4ED6DE3157104AF00D1756B /* PBXTargetDependency */,
+			);
+			name = "GPA CalculatorTests";
+			productName = "GPA CalculatorTests";
+			productReference = C4ED6DDD157104AF00D1756B /* GPA CalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4ED6DB3157104AE00D1756B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Hampton University";
+			};
+			buildConfigurationList = C4ED6DB6157104AE00D1756B /* Build configuration list for PBXProject "GPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4ED6DB1157104AE00D1756B;
+			productRefGroup = C4ED6DBD157104AE00D1756B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4ED6DBB157104AE00D1756B /* GPA Calculator */,
+				C4ED6DDC157104AF00D1756B /* GPA CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4ED6DBA157104AE00D1756B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DCB157104AF00D1756B /* InfoPlist.strings in Resources */,
+				C4ED6DD4157104AF00D1756B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED6DDA157104AF00D1756B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DE9157104AF00D1756B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4ED6DDB157104AF00D1756B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4ED6DB8157104AE00D1756B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DCD157104AF00D1756B /* main.m in Sources */,
+				C4ED6DD1157104AF00D1756B /* AppDelegate.m in Sources */,
+				C4ED6DD7157104AF00D1756B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4ED6DD8157104AF00D1756B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED6DEC157104AF00D1756B /* GPA_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4ED6DE3157104AF00D1756B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4ED6DBB157104AE00D1756B /* GPA Calculator */;
+			targetProxy = C4ED6DE2157104AF00D1756B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4ED6DC9157104AF00D1756B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ED6DCA157104AF00D1756B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ED6DD3157104AF00D1756B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C4ED6DE7157104AF00D1756B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ED6DE8157104AF00D1756B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4ED6DED157104AF00D1756B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4ED6DEE157104AF00D1756B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4ED6DF0157104AF00D1756B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPA Calculator/GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "GPA Calculator/GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4ED6DF1157104AF00D1756B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPA Calculator/GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "GPA Calculator/GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4ED6DF3157104AF00D1756B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPA Calculator.app/GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPA Calculator/GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "GPA CalculatorTests/GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C4ED6DF4157104AF00D1756B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPA Calculator.app/GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPA Calculator/GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "GPA CalculatorTests/GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4ED6DB6157104AE00D1756B /* Build configuration list for PBXProject "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED6DED157104AF00D1756B /* Debug */,
+				C4ED6DEE157104AF00D1756B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4ED6DEF157104AF00D1756B /* Build configuration list for PBXNativeTarget "GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED6DF0157104AF00D1756B /* Debug */,
+				C4ED6DF1157104AF00D1756B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4ED6DF2157104AF00D1756B /* Build configuration list for PBXNativeTarget "GPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4ED6DF3157104AF00D1756B /* Debug */,
+				C4ED6DF4157104AF00D1756B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4ED6DB3157104AE00D1756B /* Project object */;
+}
