@@ -13,13 +13,13 @@
 		C4ED6DCB157104AF00D1756B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DC9157104AF00D1756B /* InfoPlist.strings */; };
 		C4ED6DCD157104AF00D1756B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DCC157104AF00D1756B /* main.m */; };
 		C4ED6DD1157104AF00D1756B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DD0157104AF00D1756B /* AppDelegate.m */; };
-		C4ED6DD4157104AF00D1756B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */; };
 		C4ED6DD7157104AF00D1756B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DD6157104AF00D1756B /* ViewController.m */; };
 		C4ED6DDF157104AF00D1756B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DDE157104AF00D1756B /* SenTestingKit.framework */; };
 		C4ED6DE0157104AF00D1756B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC0157104AE00D1756B /* UIKit.framework */; };
 		C4ED6DE1157104AF00D1756B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED6DC2157104AE00D1756B /* Foundation.framework */; };
 		C4ED6DE9157104AF00D1756B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DE7157104AF00D1756B /* InfoPlist.strings */; };
 		C4ED6DEC157104AF00D1756B /* GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED6DEB157104AF00D1756B /* GPA_CalculatorTests.m */; };
+		C4ED6DF715711EE500D1756B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED6DF515711EE500D1756B /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +37,21 @@
 		C4ED6DC0157104AE00D1756B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4ED6DC2157104AE00D1756B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4ED6DC4157104AE00D1756B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C4ED6DC8157104AF00D1756B /* GPA Calculator-Info.plist */ = {isa = PBXFileReference; path = "GPA Calculator-Info.plist"; sourceTree = "<group>"; };
+		C4ED6DC8157104AF00D1756B /* GPA Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPA Calculator-Info.plist"; sourceTree = "<group>"; };
 		C4ED6DCA157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4ED6DCC157104AF00D1756B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4ED6DCE157104AF00D1756B /* GPA Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "GPA Calculator-Prefix.pch"; sourceTree = "<group>"; };
-		C4ED6DCF157104AF00D1756B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4ED6DCE157104AF00D1756B /* GPA Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPA Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		C4ED6DCF157104AF00D1756B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		C4ED6DD0157104AF00D1756B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4ED6DD3157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C4ED6DD5157104AF00D1756B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C4ED6DD5157104AF00D1756B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4ED6DD6157104AF00D1756B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4ED6DDD157104AF00D1756B /* GPA CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPA CalculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED6DDE157104AF00D1756B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C4ED6DE6157104AF00D1756B /* GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		C4ED6DE6157104AF00D1756B /* GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		C4ED6DE8157104AF00D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C4ED6DEA157104AF00D1756B /* GPA_CalculatorTests.h */ = {isa = PBXFileReference; path = GPA_CalculatorTests.h; sourceTree = "<group>"; };
+		C4ED6DEA157104AF00D1756B /* GPA_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPA_CalculatorTests.h; sourceTree = "<group>"; };
 		C4ED6DEB157104AF00D1756B /* GPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPA_CalculatorTests.m; sourceTree = "<group>"; };
+		C4ED6DF615711EE500D1756B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			children = (
 				C4ED6DCF157104AF00D1756B /* AppDelegate.h */,
 				C4ED6DD0157104AF00D1756B /* AppDelegate.m */,
-				C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */,
+				C4ED6DF515711EE500D1756B /* MainStoryboard.storyboard */,
 				C4ED6DD5157104AF00D1756B /* ViewController.h */,
 				C4ED6DD6157104AF00D1756B /* ViewController.m */,
 				C4ED6DC7157104AF00D1756B /* Supporting Files */,
@@ -223,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4ED6DCB157104AF00D1756B /* InfoPlist.strings in Resources */,
-				C4ED6DD4157104AF00D1756B /* MainStoryboard.storyboard in Resources */,
+				C4ED6DF715711EE500D1756B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,20 +291,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C4ED6DD2157104AF00D1756B /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4ED6DD3157104AF00D1756B /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		C4ED6DE7157104AF00D1756B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C4ED6DE8157104AF00D1756B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4ED6DF515711EE500D1756B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4ED6DF615711EE500D1756B /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

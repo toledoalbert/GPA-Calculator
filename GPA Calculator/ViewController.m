@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize Calculate;
+@synthesize GPA;
+@synthesize grade1;
+@synthesize credit1;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +30,10 @@
 
 - (void)viewDidUnload
 {
+    [self setCalculate:nil];
+    [self setGPA:nil];
+    [self setGrade1:nil];
+    [self setCredit1:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,6 +63,8 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+- (IBAction)calculate:(id)sender { GPA.text = @" GPA = ";
 }
 
 @end

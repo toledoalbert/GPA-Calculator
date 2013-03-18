@@ -14,7 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    sleep(1);
+    // Override point for customization after applicatio/Users/toledoalbert/Desktop/GPA Calculator/GPA Calculator/AppDelegate.mn launch.
     return YES;
 }
 							
